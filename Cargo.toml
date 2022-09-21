@@ -1,0 +1,12 @@
+[package]
+name = "texture_atlas_tilemap"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.bevy]
+version = "0.8"
+default-features = false
+features = ["render", "bevy_asset"]
+
+[dev-dependencies]
+bevy = "0.8"
